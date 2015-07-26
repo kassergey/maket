@@ -1,0 +1,308 @@
+﻿*
+{
+	margin:0;
+}
+#container
+{
+	margin:0px auto;
+	/*background-color:aqua;*/
+	width:775px;
+	height:736px;
+}
+#linkdy
+{
+	position:relative;
+	background-color:rgb(167, 140, 15);
+    left:14px;
+	top:14px;
+	height:168px;
+	width:600px;
+	padding:2px;
+}
+#search
+{
+	position:relative;
+	margin-top:20px;
+	left:14px;
+	width: 576px;
+  	height: 67px;
+  	background-color:rgb(76, 41, 0);
+}
+#head
+{
+	left: 35px;
+	height:59px;
+}
+/*список разделов, новое видео и поиск*/
+#draw
+{
+	border-radius:8px;
+	background-color:RGB(108, 78, 4);
+  	left: 35px;
+  	height: 357px;
+}
+#news
+{
+	left: 35px;
+	height: 262px;
+}
+#bottom
+{
+  	background-color:RGB(189,158,21);
+  	left: 35px;
+  	height: 58px;
+}
+#head, #draw, #news, #bottom
+{
+	position: relative;
+	width: 705px;
+}
+img.musiclabel, img.ourlabelyourmusic
+{
+	position:relative;
+}
+img.ourlabelyourmusic
+{
+	left:40px;
+	top:50px;
+}
+img.line1
+{
+	position:static;
+	left:194px;
+}
+img.line2
+{
+	position:static;
+	left:140px;
+}
+a
+{
+	text-decoration:none;
+}
+a.homeimg
+{
+	left:250px;
+}
+a.mailimg
+{
+	left:350px;
+}
+a.faqimg
+{
+	left:300px;
+}
+a.homeimg, a.mailimg, a.faqimg
+{
+	position:relative;
+	bottom:27px;
+}
+a.home, a.mail, a.faq
+{
+	position:relative;
+	font-size:small;
+	bottom:17px;
+	color:rgb(166, 141, 15);
+}
+a.home
+{
+	left:193px;
+}
+a.mail
+{
+	left:255px;
+}
+a.faq
+{
+	left:226px;
+}
+p.bottom
+{
+  font-size: 10px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 87px;
+  top: 20px;
+}
+img.bottom
+{
+	float:right;
+}
+p.bottom a
+{
+	color:white;
+}
+#search label
+{	
+	position:relative;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:rgb(247, 230, 88);
+	font-size:small;
+}
+#search label.artist
+{
+	left:21px;
+}
+#search label.song
+{
+	left:90px;
+}
+#search input
+{
+	position:relative;
+	margin-left:21px;
+}
+#search form
+{
+	position:relative;
+	top:10px;
+	margin:10px;
+}
+form.search img
+{
+	position:relative;
+	top:3px;
+	margin-left:13px;
+}
+#linksmain
+{
+	float:left;
+	width:202px;
+}
+a.linksmain1, a.linksmain2, a.linksmain3, a.linksmain4
+{
+	position:relative;
+}
+a.linksmain1
+{
+	top:6px;
+}
+a.linksmain2
+{
+	top:12px;
+}
+a.linksmain3
+{
+	top:18px;
+}
+a.linksmain4
+{
+	top:24px;
+}
+p.welcome_to_our_website
+{
+	position:relative;
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(66, 43, 1);
+  margin-right:150px;
+  top:5px;
+}
+#Artist_of_mounth
+{
+	border-radius:8px;
+	float:right;
+	width:334px;
+	background-color:rgb(161, 132, 12);
+}
+p.label
+{
+	font-size:10px;
+	font-family: "Tahoma";
+	color:white;
+}
+#ckino
+{
+	float:left;
+	border-radius:8px;
+	margin-left:17px;
+	margin-top:5px;
+	background-color:white;
+	padding:4px;
+	width:130px;
+}
+#descriptionnewkino
+{
+	margin-top:2px;
+	border-radius:8px;
+	background-color:rgb(166, 141, 15);
+	width:373px;
+	margin-left:74px;
+	height:56px;
+}
+#descriptionnewkino p
+{
+	position:relative;
+	font-size:10px;
+	font-family: "Tahoma";
+	color:white;
+	left:12px;
+	top:8px;
+}
+#descriptionnewkino img
+{
+	float:right;
+}
+#descriptionnewkino a
+{
+	height:56px;
+}
+#film
+{
+	margin-top:10px;
+	margin-left:10px;
+	width:337px;
+}
+#film p
+{
+	position:relative;
+	left:11px;
+	font-size:10px;
+	font-family: "Tahoma";
+	color:rgb(124, 97, 50);
+}
+#film img
+{
+	float:left;
+}
+#fanzone
+{
+	float:right;
+	margin-top:10px;
+	width:315px;
+}
+#fanzone p
+{
+	position:relative;
+	left:21px;
+	font-size:10px;
+	font-family: "Tahoma";
+	color:rgb(124, 97, 50);
+}
+#redtextiswhite
+{
+	background-color:red;
+	width:50px;
+	height:28px;
+}
+#redtextiswhite p
+{
+	position:relative;
+	left:1px;
+	top:5px;
+	color:white;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:medium;
+}
+p.linkdate
+{
+	margin-left:30px;
+	margin-top:-27px;
+	font-family:Tahoma;
+	text-decoration:underline;
+}
